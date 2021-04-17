@@ -27,7 +27,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          external_repostiroy: machida4/machida4.github.io
+          external_repository: machida4/machida4.github.io
           publish_branch: master
           cname: machida.earth
 
